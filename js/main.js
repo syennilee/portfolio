@@ -15,7 +15,7 @@
 
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
   function v(x) { return x === null || x === undefined || x === "" ? '<span class="tbd">' + C.TBD[lang] + "</span>" : x; }
-  function noA(i) { return i < 4 ? "0" + (i + 1) : "+1"; }
+  function noA(i) { var m = C.T.en.C.length - 1; return i < m ? "0" + (i + 1) : "+" + (i - m + 1); }
   function noB(i) { return i < 6 ? "0" + (i + 1) : "+" + (i - 5); }
   function tap(el, fn) {
     el.addEventListener("click", fn);
@@ -179,7 +179,7 @@
       if (fine) { x.onmouseenter = showIng; x.onmouseleave = function () { x.classList.remove("on"); p1 = p2 = false; }; }
       else { x.onclick = function () { showIng(); setTimeout(function () { p1 = p2 = false; }, 2500); }; }
     });
-    $("plist").innerHTML = d.C.slice(0, 4).map(function (c, k) { return rowH(c, k, k === 0); }).join("") + '<div class="oth">' + d.oth + "</div>" + rowH(d.C[4], 4, true);
+    $("plist").innerHTML = d.C.slice(0, d.C.length - 1).map(function (c, k) { return rowH(c, k, k === 0); }).join("") + '<div class="oth">' + d.oth + "</div>" + rowH(d.C[d.C.length - 1], d.C.length - 1, true);
     document.querySelectorAll(".row").forEach(function (r) {
       var i = +r.dataset.i;
       if (fine) { r.onmouseenter = function () { setAct(i); }; r.onmouseleave = function () { setAct(null); }; }
