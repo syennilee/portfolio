@@ -54,13 +54,13 @@ window.CONTENT = {
   TOOLS: {
     en: [
       ["Video & design", ["Premiere Pro", "Photoshop", "Illustrator", "After Effects (basic)", "CapCut", "InShot", "Canva", "Miricanvas"]],
-      ["Marketing", ["GA4", "Google Ads", "Shopee Seller Centre", "Amazon Seller Central", "Excel"]],
+      ["Marketing", ["GA4", "Google Ads", "Shopee Seller Centre", "Shopify", "Excel"]],
       ["Docs", ["PowerPoint", "Word", "Google Workspace", "Notion (basic)", "HWP"]],
       ["Certificates", ["Google Analytics (GAIQ)", "Google Ads Search", "Google Ads Video", "MOS PowerPoint"]]
     ],
     kr: [
       ["영상 · 디자인", ["Premiere Pro", "Photoshop", "Illustrator", "After Effects (기초)", "CapCut", "InShot", "Canva", "미리캔버스"]],
-      ["마케팅", ["GA4", "Google Ads", "Shopee Seller Centre", "Amazon Seller Central", "Excel"]],
+      ["마케팅", ["GA4", "Google Ads", "Shopee Seller Centre", "Shopify", "Excel"]],
       ["문서 · 협업", ["PowerPoint", "Word", "Google Workspace", "Notion (기초)", "한글(HWP)"]],
       ["자격증", ["Google Analytics (GAIQ)", "Google Ads Search", "Google Ads Video", "MOS PowerPoint"]]
     ]
@@ -128,14 +128,14 @@ window.CONTENT = {
         ["Canva", "Card news and posters."],
         ["GA4", "Google Analytics certified (GAIQ)."],
         ["Campaign planning", "Promotion campaign planning — university class project."],
-        ["E-commerce", "Shopee shop setup and Amazon seller account practice — 2026 Seoul Global Marketer program."]
+        ["E-commerce", "Shopee and Shopify store setup practice — 2026 Seoul Global Marketer program (in progress)."]
       ],
       plh: "Hover to preview · click to open", ing: "INGREDIENTS", note: "NOTE", oth: "OTHER SKILLS", pl: "PRODUCT LINE",
       C: [
         { t: "Brand BX Analysis", c: "Brand analysis", lab: "Brand experience (BX) analysis of a K-beauty brand · strategy direction proposal", n: "University class project", ctx: "Major course 「Brand Image and Media」, Yonsei, fall 2025", role: null, did: "Analysed a K-beauty brand's brand experience (BX) and proposed a strategy direction.", res: "Analysis and strategy proposal", show: "Reading a beauty brand's identity and where it can go next." },
         { t: "Brand Campaign Planning", c: "Campaign planning", lab: "Promotion campaign planning for a K-beauty brand", n: "University class project — plan stage", ctx: "Major course 「Brand Image and Media」, Yonsei, fall 2025", role: null, did: "Planned a promotion campaign for a K-beauty brand.", res: "Campaign plan (not executed)", show: "Turning brand analysis into a campaign idea." },
         { t: "Global K-Beauty marketing sprint", c: "Product planning", lab: "Adjacent SKU expansion proposal · consumer journey + review analysis · brand positioning", n: "Education program (EduCourse)", ctx: "EduCourse, 5th Global K-Beauty Brand Marketing Sprint, Aug 2026", role: null, did: "Analysed the beauty consumer journey and reviews, worked on brand positioning, and proposed an adjacent SKU expansion for a K-beauty brand.", res: "Product expansion proposal", show: "BM-style product planning grounded in what customers say in reviews." },
-        { t: "Cross-border E-commerce", c: "E-commerce", lab: "Shopee shop setup · Amazon seller account practice · marketplace ads", n: "Training program — practice", ctx: "2026 Seoul Global Marketer program, fall 2026", role: null, did: "Learned how a K-beauty product gets onto global marketplaces, and practised it: setting up a Shopee shop, practising with an Amazon seller account, and studying Amazon Ads (Sponsored Ads).", res: "Practice setup (no live sales) · Amazon Ads certifications in progress (Dec 2026)", show: "Understanding the step after the campaign: where the customer actually buys." },
+        { t: "Cross-border E-commerce", c: "E-commerce", lab: "Shopee shop setup · Shopify store practice", n: "Training program — in progress", ctx: "2026 Seoul Global Marketer program, fall 2026", role: null, did: "Learning how a K-beauty product gets onto global e-commerce channels, and practising it: setting up a Shopee shop and a Shopify store.", res: "Practice setup (no live sales) · course in progress", show: "Understanding the step after the campaign: where the customer actually buys." },
         { t: "Export Marketing Plan", c: "Market entry", lab: "As a mock trading company: export item selection → German market research → marketing strategy → buyer sourcing", n: "Team project — in progress", ctx: "2026 Seoul Global Marketer program, final team project (presentation Dec 2026)", role: null, did: "Our team acts as a trading company that exports Korean products. I proposed our export item: a K-beauty cica cream for the German market, with the matching ampoule as a phase-2 extension.", res: "Final presentation, Dec 2026", show: "Taking a product from \u201cwhy this one\u201d to \u201cwho buys it abroad\u201d." },
         { t: "Beauty trend card news", c: "Trend content", lab: "Trend research · card-news design · captions", n: "Coming soon — in development", ctx: "Personal project, in preparation", role: null, did: "Planned: trend research, card-news design and captions.", res: "Coming soon", show: "Keeping up with beauty trends and turning them into content." },
         { t: "GOSC student-life video series", c: "Content production", lab: "Audience-question topic planning · KR/EN long-form + shorts · 2,800+ views", n: "Team project · GOSC Supporters (5th–6th)", ctx: "Yonsei GOSC Supporters video team, Sep 2024 – Aug 2025", role: null, did: "Planned topics from international students' real questions; planned, filmed, appeared in and edited 4 KR/EN long-form videos and Instagram shorts (Premiere Pro, CapCut).", res: "「Course Registration Tips」 2,800+ views · 「Cost of Living in Korea」 1,900+ views (channel: 1,480+ YouTube subscribers, 3,000+ Instagram followers)", show: "Making content that answers real audience questions — the same approach for beauty customers." }
@@ -151,7 +151,7 @@ window.CONTENT = {
         { t: "K-music & concert content account", did: "Planned: concert and K-music content on my own account", res: "—", n: "Coming soon · not live yet — launching alongside SeSAC", ctx: "Personal project, in preparation", role: null, show: "Turning a real love of live music into content." },
         { t: "Brand BX analysis → Reading a brand's world", did: "Analysed a K-beauty brand's brand experience (BX) and proposed a strategy direction.", res: "Analysis and strategy proposal", n: "Other skill · university class project", ctx: "Major course 「Brand Image and Media」, fall 2025", role: null, show: "An artist's IP needs the same reading: identity, tone, touchpoints. (transferable skill)" },
         { t: "K-beauty sprint → Listening to reviews", did: "Consumer journey and review analysis, positioning, product expansion proposal.", res: "Proposal", n: "Other skill · education program", ctx: "EduCourse K-Beauty sprint, Aug 2026", role: null, show: "Reading reviews is close to reading fan comments and community sentiment. (transferable skill)" },
-        { t: "E-commerce → Selling to global fans", did: "Shopee shop setup, Amazon seller account practice and marketplace ads study.", res: "Practice (no live sales)", n: "Other skill · training program", ctx: "2026 Seoul Global Marketer program, fall 2026", role: null, show: "Marketplaces and ads work the same way for albums and merch sold to global fans. (transferable skill)" }
+        { t: "E-commerce → Selling to global fans", did: "Shopee shop and Shopify store setup practice.", res: "Practice (no live sales) · in progress", n: "Other skill · training program", ctx: "2026 Seoul Global Marketer program, fall 2026", role: null, show: "The same store setup works for albums and merch sold to global fans. (transferable skill)" }
       ],
       wid: "WHAT I DID", res: "RESULT", song: "SONG", why: "WHY I LOVE IT", pick: "Song", artist: "artist"
     },
@@ -171,14 +171,14 @@ window.CONTENT = {
         ["Canva", "카드뉴스·포스터 제작."],
         ["GA4", "Google Analytics 자격증 (GAIQ)."],
         ["캠페인 기획", "프로모션 캠페인 기획 — 전공 수업 프로젝트."],
-        ["이커머스", "쇼피 샵 세팅·아마존 셀러 계정 실습 — 2026 서울 글로벌 마케터 양성교육."]
+        ["이커머스", "쇼피·쇼피파이 스토어 세팅 실습 — 2026 서울 글로벌 마케터 양성교육 (진행 중)."]
       ],
       plh: "마우스를 올려 미리보기 · 클릭해서 열기", ing: "성분 (INGREDIENTS)", note: "참고", oth: "기타 역량", pl: "PRODUCT LINE",
       C: [
         { t: "브랜드 BX 분석", c: "브랜드 분석", lab: "K-뷰티 브랜드의 브랜드 경험(BX) 분석 · 전략 방향 제안", n: "전공 수업 프로젝트", ctx: "연세대학교 전공 수업 「브랜드 이미지와 미디어」, 2025학년 2학기", role: null, did: "K-뷰티 브랜드의 브랜드 경험(BX)을 분석하고 전략 방향을 제안했습니다.", res: "분석 및 전략 제안", show: "뷰티 브랜드의 정체성과 나아갈 방향을 읽는 힘." },
         { t: "브랜드 캠페인 기획", c: "캠페인 기획", lab: "K-뷰티 브랜드 프로모션 캠페인 기획", n: "전공 수업 프로젝트 — 기획 단계", ctx: "연세대학교 전공 수업 「브랜드 이미지와 미디어」, 2025학년 2학기", role: null, did: "K-뷰티 브랜드의 프로모션 캠페인을 기획했습니다.", res: "캠페인 기획안 (실행 X)", show: "브랜드 분석을 캠페인 아이디어로 연결하는 힘." },
         { t: "글로벌 K-뷰티 브랜드 마케팅 스프린트", c: "상품 기획", lab: "인접 SKU 확장안 제안 · 소비자 여정·리뷰 분석 · 브랜드 포지셔닝", n: "교육 프로그램 (에듀코스)", ctx: "에듀코스 제5기 글로벌 K-뷰티 브랜드 마케팅 스프린트, 2026.08", role: null, did: "뷰티 소비자 여정과 리뷰를 분석하고 브랜드 포지셔닝을 정리한 뒤, K-뷰티 브랜드의 인접 SKU 확장 전략을 제안했습니다.", res: "상품 확장 제안", show: "리뷰 속 고객의 목소리에 기반한 BM식 상품 기획." },
-        { t: "크로스보더 이커머스", c: "이커머스", lab: "쇼피 샵 세팅 · 아마존 셀러 계정 실습 · 마켓플레이스 광고", n: "교육 프로그램 — 실습", ctx: "2026 서울 글로벌 마케터 양성교육, 2026 하반기", role: null, did: "K-뷰티 제품이 글로벌 마켓플레이스에 입점하는 과정을 배우고 실습했습니다. 쇼피 샵 세팅, 아마존 셀러 계정 실습, 아마존 광고(Sponsored Ads) 학습을 진행했습니다.", res: "실습 세팅 (실제 판매 X) · 아마존 광고 자격증 준비 중 (2026.12)", show: "캠페인 다음 단계, 고객이 실제로 구매하는 곳까지 이해하는 힘." },
+        { t: "크로스보더 이커머스", c: "이커머스", lab: "쇼피 샵 세팅 · 쇼피파이 스토어 실습", n: "교육 프로그램 — 진행 중", ctx: "2026 서울 글로벌 마케터 양성교육, 2026 하반기", role: null, did: "K-뷰티 제품이 글로벌 이커머스 채널에 입점하는 과정을 배우고, 쇼피 샵과 쇼피파이 스토어 세팅을 실습하고 있습니다.", res: "실습 세팅 (실제 판매 X) · 과정 진행 중", show: "캠페인 다음 단계, 고객이 실제로 구매하는 곳까지 이해하는 힘." },
         { t: "수출 마케팅 기획", c: "해외 진출", lab: "가상 무역회사로서 수출 아이템 선정 → 독일 시장조사 → 마케팅 전략 → 바이어 발굴", n: "팀 과제 — 진행 중", ctx: "2026 서울 글로벌 마케터 양성교육, 최종 팀 과제 (2026.12 발표)", role: null, did: "한국 제품을 수출하는 무역회사 컨셉의 팀 과제에서, 수출 아이템으로 독일 시장을 위한 K-뷰티 시카 크림을 제안했습니다. 앰플은 2단계 확장안으로 제시했습니다.", res: "최종 발표, 2026.12", show: "\u201c왜 이 제품인가\u201d에서 \u201c해외에서 누가 살까\u201d까지 연결하는 힘." },
         { t: "뷰티 트렌드 카드뉴스", c: "트렌드 콘텐츠", lab: "트렌드 리서치 · 카드뉴스 디자인 · 캡션", n: "Coming soon — 준비 중", ctx: "개인 프로젝트, 준비 중", role: null, did: "계획: 트렌드 리서치, 카드뉴스 디자인, 캡션 작성.", res: "Coming soon", show: "뷰티 트렌드를 꾸준히 읽고 콘텐츠로 만드는 힘." },
         { t: "GOSC 유학생 생활 영상 시리즈", c: "콘텐츠 제작", lab: "시청자 질문 기반 주제 기획 · 한·영 롱폼 + 숏폼 · 조회수 2,800+", n: "팀 프로젝트 · GOSC 서포터즈 (5·6기)", ctx: "연세대학교 GOSC 서포터즈 영상제작팀, 2024.09 – 2025.08", role: null, did: "외국인 유학생의 실제 질문을 바탕으로 주제를 기획하고, 한·영 유튜브 롱폼 4편과 인스타그램 숏폼을 기획·촬영·출연·편집했습니다 (Premiere Pro, CapCut).", res: "「Course Registration Tips」 조회수 2,800+ · 「Cost of Living in Korea」 1,900+ (채널: 유튜브 구독자 1,480+, 인스타그램 팔로워 3,000+)", show: "실제 시청자의 질문에 답하는 콘텐츠 — 뷰티 고객에게도 같은 방식으로." }
@@ -194,7 +194,7 @@ window.CONTENT = {
         { t: "K-뮤직 · 공연 콘텐츠 계정", did: "계획 중: 직접 운영하는 공연·K-뮤직 콘텐츠 계정", res: "—", n: "Coming soon · 아직 미운영 — 새싹 과정과 함께 시작 예정", ctx: "개인 프로젝트, 준비 중", role: null, show: "라이브 음악에 대한 진짜 애정을 콘텐츠로." },
         { t: "브랜드 BX 분석 → 브랜드의 세계 읽기", did: "K-뷰티 브랜드의 브랜드 경험(BX)을 분석하고 전략 방향을 제안.", res: "분석 및 전략 제안", n: "기타 역량 · 전공 수업 프로젝트", ctx: "전공 수업 「브랜드 이미지와 미디어」, 2025학년 2학기", role: null, show: "아티스트 IP도 같은 시선이 필요합니다: 정체성, 톤, 접점. (전이 가능한 역량)" },
         { t: "K-뷰티 스프린트 → 리뷰 듣기", did: "소비자 여정·리뷰 분석, 포지셔닝, 상품 확장 제안.", res: "제안", n: "기타 역량 · 교육 프로그램", ctx: "에듀코스 K-뷰티 스프린트, 2026.08", role: null, show: "리뷰를 읽는 일은 팬 댓글과 커뮤니티 반응을 읽는 일과 가깝습니다. (전이 가능한 역량)" },
-        { t: "이커머스 → 글로벌 팬에게 판매하기", did: "쇼피 샵 세팅, 아마존 셀러 계정 실습, 마켓플레이스 광고 학습.", res: "실습 (실제 판매 X)", n: "기타 역량 · 교육 프로그램", ctx: "2026 서울 글로벌 마케터 양성교육, 2026 하반기", role: null, show: "마켓플레이스와 광고는 해외 팬 대상 앨범·MD 판매에도 그대로 적용됩니다. (전이 가능한 역량)" }
+        { t: "이커머스 → 글로벌 팬에게 판매하기", did: "쇼피 샵·쇼피파이 스토어 세팅 실습.", res: "실습 (실제 판매 X) · 진행 중", n: "기타 역량 · 교육 프로그램", ctx: "2026 서울 글로벌 마케터 양성교육, 2026 하반기", role: null, show: "같은 스토어 세팅은 해외 팬 대상 앨범·MD 판매에도 그대로 적용됩니다. (전이 가능한 역량)" }
       ],
       wid: "한 일", res: "결과", song: "곡", why: "좋아하는 이유", pick: "곡", artist: "아티스트"
     }
